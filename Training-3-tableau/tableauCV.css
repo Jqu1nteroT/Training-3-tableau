@@ -1,0 +1,250 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+
+@import url('normalize.css');
+
+/*estructura del body*/
+
+@font-face{
+	font-family: 'FontAwesome';
+	src: url(css/fontawesome-webfont.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	background-color: #b7b7b7;
+	font-family: arial;
+	font-size: 0.625em;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+i{
+	color: #3d91cd;
+	margin-right: 0.625em;
+}
+
+h1{
+	font-size: 300%;
+	font-family: arial;
+	line-height: 0px;
+	margin-bottom: 1px;
+	margin-left: 20px;
+	
+}
+
+p{
+	font-size: normal;
+	line-height: normal;
+	
+}
+
+h2{
+	font-weight: bold;
+	font-family: arial;
+	margin-left: 20px;
+	font-style: italic;
+	font-size: 150%;
+}
+
+#divPadre{
+	margin: 0 auto;
+	width: 60em;
+	height: auto;
+	background-color: #f1f1f1;
+	
+}
+
+/*tabla general*/
+
+table{
+	width: 100%;	
+	margin: 1px;
+	padding: 1px;
+	padding-right: 1px;
+	table-layout: fixed;
+}
+
+.divHijoSup{
+	width: 15%;
+	height: 75px;
+	background-color: #3d91cd;
+	border: #3d91cd 1px solid;
+	color: white;
+	margin-left: 1.30em;
+	vertical-align: baseline;
+	text-align: center;
+	font-size: 150%;
+	padding-bottom: 3%;
+	padding-right: 3%;
+
+}
+
+/*cabecera*/
+
+#c{
+	margin-top: 70%;
+	margin-left: 20%;
+}
+
+.head b {
+	font-family: arial;
+	font-size: medium;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
+.text {
+	line-height: 24px;
+	margin-top: 15%;
+}
+
+#head td{
+	
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	padding-left: 20px;
+	text-align: justify;
+	line-height: 20px;
+	padding-bottom: 
+}
+
+.FonSup{
+	color: #3d91cd;
+	padding-top: 0;
+}
+
+/*cuerpo*/
+
+#cuerpo table{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	line-height: 20px;
+	margin-right: 0 auto;
+	font-size: 90%;
+}
+
+.Foncorp{
+	color: #3d91cd;
+	font-size:;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
+/*tabla sup izq*/
+
+.izq td{
+	width: 100%;
+	height: auto;
+	line-height: 20px;
+	font-size: 90%;
+	text-align: left;
+	padding-left: 0;
+	padding-bottom: 20%;
+}
+
+
+/*tabla sup der*/
+
+.der td{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	line-height: 20px;
+	
+	margin-right: 0 auto;
+	font-size: 100%;
+	padding-bottom: 5%;
+
+}
+
+meter{
+	background: #3d91cd;
+}
+
+/*tabla inf izq*/
+
+.infd td{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	line-height: 20px;
+	margin-right: 0 auto;
+	font-size: 100%;
+	padding-bottom: 5%;
+}
+
+/*tabla inf izq*/
+
+.infi td{
+	width: auto;
+	height: auto;
+	padding: 0;
+	line-height: 20px;
+	margin-right: 0 auto;
+	font-size: 100%;
+	padding-right: 0;
+}
+
+.inver{
+	text-align: right;
+	margin-right: 0;
+}
+
+.divBajo1{
+	width: 45%;
+	height: 35%;
+	transform: rotate(315deg);
+	background-color: #3d91cd;
+	border: #3d91cd 1px solid;
+	color: white;
+	vertical-align: baseline;
+	text-align: justify;
+	font-size: 100%;
+	float: left;
+	opacity: 0.7;
+}
+
+.divBajo2{
+	width: 45%;
+	height: 35%;
+	transform: rotate(315deg);
+	background-color: #3d91cd;
+	border: #3d91cd 1px solid;
+	color: white;
+	vertical-align: baseline;
+	text-align: center;
+	font-size: 100%;
+	float: left;
+	padding-left: 5%;
+	opacity: 0.7;
+}
+
+.work{
+	margin-top: 15%;
+	margin-left: 15%;
+}
+
+.play{
+	margin-top: 60%;
+	margin-right: 20%;
+
+}
+
+/*pie de pagina*/
+
+.foot{
+	background-color: #3d91cd;
+	width: 100%;
+	height: 1.375em;
+	table-layout: fixed;
+}
+
